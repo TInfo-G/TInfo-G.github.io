@@ -1,98 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>MinecraftEdu</title>
-    <meta charset="utf-8">
-    <style>
-      body {
-        background-color: rgb(244, 250, 240);
-        width: 100%;
-        height: 100%;
-      }
+<head>
+  <title>MinecraftEdu</title>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background-color:rgb(244, 250, 240);
+      width:100%;
+      height:100%;
+    }
+    .topnav {
+      background-color:rgb(193,174,214);
+      overflow:hidden;
+      position:fixed;
+      top:0px;
+      width:100%;
+      left:0px;
+      padding-top:15px;
+    }
+    .topnav a {
+      display: block;
+      float:left;
+      color:#000000;
+      padding:14px 16px;
+      text-align:center;
+      font-weight:bold;
+      text-decoration:none;
+      font-size:17px;
+      font-family:monospace;
+    }
+    #logo {
+      font-family:"chalkduster",fantasy;
+      font-size:18px;
+      padding:0;
+      margin-top:auto;
+      margin-left:10px;
+    }
+    .topnav #logo:hover {
+        background-color:rgb(193,174,214);
+    }
+    .topnav a:hover {
+      background-color:rgb(226,208,245);
+    }
+    .topic{
+      text-align:center;
+      font-family:fantasy;
+      padding-left:30px;
+      padding-right:30px;
+    }
+    #subheading{
+        font-size:18px;
+    }
+    h2{
+      padding-top:30px;
+    }
+    #sheep{
+      float:left;
+      margin:0px 10px 0px 10px;
+    }
+    p{
+      margin-right:40px;
+      margin-left:10px;
+    }
+    #title{
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:50px;
+      position:relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+     <a id="logo" href="index.html"><img src="https://user-images.githubusercontent.com/86028059/127419573-3b0747e5-bbe9-432c-bba8-217f3392cc94.png" alt="Minecraft Education" height="40px"></a>
+     <a href="index.html">Home</a>
+     <a href="demo-world.html">Demo World</a>
+     <a href="pricing.html">Pricing</a>
+  </div>
+  <br><img id="title" src="https://user-images.githubusercontent.com/86028059/127419573-3b0747e5-bbe9-432c-bba8-217f3392cc94.png" alt="Minecraft Education" height="100px">
+  <h2 class=topic>Student Engagements</h2><img id="sheep"src="https://user-images.githubusercontent.com/86028059/127574193-e6a15939-e27c-4c05-a85b-9d67f473426d.png" alt="a minecraft sheep" width="120px">
+  <p class=topic>
+    Minecraft Education Edition brings the classroom and curriculum to students in an environment they are already comfortable with. It offers the same Minecraft experience many students enjoy already, but with some additional capabilities that enable them to collaborate in the classroom, as well as support for educators to deliver learning activities within the game.<br>
+    <br><br><br><br>
+    <strong id=subheading>Engage Students in Fun New Ways<br></strong>
+    
+    Educators have told us that using Minecraft to teach part of their curriculum has helped them improve student engagement, collaboration, creative exploration, and tangible learning outcomes.
+  </p>
 
-      .topnav {
-        background-color: rgb(193, 174, 214);
-        overflow: hidden;
-        position: fixed;
-        top: 0px;
-        width: 100%;
-        left: 0px;
-        padding-top: 15px;
-      }
-
-      .topnav a {
-        display: block;
-        float: left;
-        color: #000000;
-        padding: 14px 16px;
-        text-align: center;
-        font-weight: bold;
-        text-decoration: none;
-        font-size: 17px;
-        font-family: monospace;
-      }
-
-      #logo {
-        font-family: "chalkduster", fantasy;
-        font-size: 18px;
-        padding: 0;
-        margin-top: auto;
-        margin-left: 10px;
-      }
-
-      .topnav #logo:hover {
-        background-color: rgb(193, 174, 214);
-      }
-
-      .topnav a:hover {
-        background-color: rgb(226, 208, 245);
-      }
-
-      .topic {
-        text-align: center;
-        font-family: fantasy;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
-
-      #subheading {
-        font-size: 18px;
-      }
-
-      h2 {
-        padding-top: 30px;
-      }
-
-      #sheep {
-        float: left;
-        margin: 10px;
-      }
-
-      p {
-        margin-right: 40px;
-        margin-left: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="topnav">
-      <a id="logo" href="index.html">
-        <img src="https://user-images.githubusercontent.com/86028059/127419573-3b0747e5-bbe9-432c-bba8-217f3392cc94.png" alt="Minecraft Education" height="40px">
-      </a>
-      <a href="index.html">Home</a>
-      <a href="demo-world.html">Demo World</a>
-      <a href="pricing.html">Pricing</a>
-    </div>
-    <br>
-    <h2 class=topic>Student Engagements</h2>
-    <p class=topic>
-      <img id="sheep" src="https://user-images.githubusercontent.com/86028059/127574193-e6a15939-e27c-4c05-a85b-9d67f473426d.png" alt="a minecraft sheep" width="120px">Minecraft Education Edition brings the classroom and curriculum to students in an environment they are already comfortable with. It offers the same Minecraft experience many students enjoy already, but with some additional capabilities that enable them to collaborate in the classroom, as well as support for educators to deliver learning activities within the game. <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <strong id=subheading>Engage Students in Fun New Ways <br>
-      </strong> Educators have told us that using Minecraft to teach part of their curriculum has helped them improve student engagement, collaboration, creative exploration, and tangible learning outcomes.
-    </p>
-  </body>
+</body>
 </html>
